@@ -1,0 +1,41 @@
+{
+  "name": "shqip-syntax-highlighter",
+  "displayName": "Shqip Syntax Highlighter",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "shqip",
+        "aliases": [
+          "Shqip",
+          "shqip"
+        ],
+        "extensions": [
+          ".sq"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "shqip",
+        "scopeName": "source.sq",
+        "path": "./syntaxes/shqip.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Shqip Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shqip-theme.json"
+      }
+    ]
+  }
+}

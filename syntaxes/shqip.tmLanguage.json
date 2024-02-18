@@ -1,0 +1,101 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "shqip",
+	"patterns": [
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"variables": {
+			"patterns": [
+				{
+					"name": "source.shqip.variable",
+					"match": "\\b(var)\\b"
+				}
+			]
+		},
+		"operators": {
+			"patterns": [
+				{
+					"name": "source.shqip.comparison.operator",
+					"match": "==|!=|<|>|<=|>="
+				}
+			]
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"name": "source.shqip.logical.operator",
+					"match": "\\bedhe\\b|\\bose\\b|\\bjo\\b"
+				},
+				{
+					"name": "source.shqip.boolean",
+					"match": "\\bon\\b|\\bsbon\\b"
+				},
+				{
+					"name": "source.shqip.if",
+					"match": "\\bnese\\b|\\btani\\b|\\bperndryshe\\b|\\btjeter\\b"
+				},
+				{
+					"name": "source.shqip.loop",
+					"match": "\\bderisa\\b|\\btani\\b"
+				},
+				{
+					"name": "source.shqip.for.loop",
+					"match": "\\bper\\b|\\bderi\\b"
+				},
+				{
+					"name": "source.shqip.while.loop",
+					"match": "\\bderisa\\b|\\btani\\b"
+				},
+				{
+					"name": "source.shqip.function",
+					"match": "\\bfunksion\\b"
+				},
+				{
+					"name": "source.shqip.string",
+					"match": "\".*?\""
+				},
+				{
+					"name": "source.shqip.array",
+					"match": "\\[.*?\\]"
+				},
+				{
+					"name": "source.shqip.builtIn.function",
+					"match": "\\bprinto\\b|\\bshtyp\\(\\)\\b|\\bshtyp_num\\(\\)\\b|\\beshte_num\\(\\)\\b|\\beshte_tekst\\b|\\beshte_list\\(\\)\\b|\\beshte_fun\\(\\)\\b|\\bshto\\(\\)\\b|\\bfshij\\(\\)\\b|\\bzgjat\\(\\)\\b|\\bsa\\(\\)\\b"
+				},
+				{
+					"name": "source.shqip.multiline.statement",
+					"match": "(.*?\\n)+"
+				},
+				{
+					"name": "source.shqip.return",
+					"match": "\\bkthe\\b"
+				},
+				{
+					"name": "source.shqip.break",
+					"match": "\\bkpute\\b"
+				},
+				{
+					"name": "source.shqip.continue",
+					"match": "\\bvazhdo\\b"
+				},
+				{
+					"name": "source.shqip.comment",
+					"match": "\\~.*?$"
+				}
+			]
+		}
+	},
+	"scopeName": "source.sq"
+}

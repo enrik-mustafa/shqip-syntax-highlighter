@@ -1,0 +1,113 @@
+{
+  "name": "Shqip Theme",
+  "type": "dark",
+  "colors": {
+    "editor.foreground": "#FFFFFF",
+    "editor.background": "#1E1E1E"
+  },
+  "tokenColors": [
+    {
+      "scope": "source.shqip.variable",
+      "settings": {
+        "foreground": "#9CDCFE"
+      }
+    },
+    {
+      "scope": "source.shqip.comparison.operator",
+      "settings": {
+        "foreground": "#C586C0"
+      }
+    },
+    {
+      "scope": "source.shqip.logical.operator",
+      "settings": {
+        "foreground": "#C586C0"
+      }
+    },
+    {
+      "scope": "source.shqip.boolean",
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
+      "scope": "source.shqip.if",
+      "settings": {
+        "foreground": "#C586C0"
+      }
+    },
+    {
+      "scope": "source.shqip.loop",
+      "settings": {
+        "foreground": "#C586C0"
+      }
+    },
+    {
+      "scope": "source.shqip.for.loop",
+      "settings": {
+        "foreground": "#C586C0"
+      }
+    },
+    {
+      "scope": "source.shqip.while.loop",
+      "settings": {
+        "foreground": "#C586C0"
+      }
+    },
+    {
+      "scope": "source.shqip.function",
+      "settings": {
+        "foreground": "#DCDCAA"
+      }
+    },
+    {
+      "scope": "source.shqip.string",
+      "settings": {
+        "foreground": "#CE9178"
+      }
+    },
+    {
+      "scope": "source.shqip.array",
+      "settings": {
+        "foreground": "#D4D4D4"
+      }
+    },
+    {
+      "scope": "source.shqip.builtIn.function",
+      "settings": {
+        "foreground": "#D4D4D4"
+      }
+    },
+    {
+      "scope": "source.shqip.multiline.statement",
+      "settings": {
+        "foreground": "#D4D4D4"
+      }
+    },
+    {
+      "scope": "source.shqip.return",
+      "settings": {
+        "foreground": "#C586C0"
+      }
+    },
+    {
+      "scope": "source.shqip.break",
+      "settings": {
+        "foreground": "#C586C0"
+      }
+    },
+    {
+      "scope": "source.shqip.continue",
+      "settings": {
+        "foreground": "#C586C0"
+      }
+    },
+    {
+      "scope": "source.shqip.comment",
+      "settings": {
+        "foreground": "#608B4E",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}
